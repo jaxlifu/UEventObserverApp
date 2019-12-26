@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GPIO控制</string>
+    <string name="switch_status">开关%1$d为%2$s</string>
+
+</resources>
