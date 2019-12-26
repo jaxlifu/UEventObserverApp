@@ -1,0 +1,6 @@
+# UEventObserverApp
+initial project for android app observer UEvent
+
+Android app 监听UEvent事件，直接调用UEventObserver在5.0以后的sdk中基本上都找不到这个类，之前想的是通过把带有这些类的framework.jar添加到项目中虽然可行但是却浪费
+
+后来就想着将UEventObserver这个类文件拷贝到项目来，但是由于是调用的jni所以就要将这个文件放在android.os包下，经测试可以直接在App上监听UEvent
