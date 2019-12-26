@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun requestPermission() {
-        if (checkPermissions(permissions)) {
+        if (!checkPermissions(permissions)) {
             ActivityCompat.requestPermissions(this, permissions, REQUEST_CODE_PERMISSION)
         }
     }
